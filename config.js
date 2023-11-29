@@ -4,13 +4,13 @@ var colors = require('colors');
 const defaultConfg = {
 		security: {
 			privateKeyPath: './certs/server-key.pem',
-			certificatePath: './certs/server-crt.pem'	
+			certificatePath: './certs/server-crt.pem'
 		},
 		pureCloud: {
-			environment: 'mypurecloud.com',
-			orgName: 'your-org-shortname',
-			clientId: '00000000-0000-0000-0000-000000000000',
-			clientSecret: '0000000000000000000000000000000000000000000'
+			environment: 'login.usw2.pure.cloud',
+			orgName: 'omontalvodev',
+			clientId: 'a8b20ecf-c2f9-4858-9210-5268a6ddc846',
+			clientSecret: 'tvXDuoGPHM3rZiVksd5VpUNONsbkcTGp62p-yCs7JFU'
 		},
 		disableHttp: false,
 		httpPort: 8000,

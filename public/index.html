@@ -17,7 +17,7 @@
 
 				// Create Users API
 				var api = new purecloud.platform.UsersApi(pureCloudSession);
-				
+
 				// Call GET /api/v2/users/me
 				api.getMe()
 					.then(function(result){
@@ -31,9 +31,9 @@
 			} else {
 				// Use your Okta URL here
 				var oktaUrl = 'https://inin.oktapreview.com/home/inindev351417_purecloud_2/0oa82726leSLOxkmG0h7/aln827p64sJb24Utt0h7';
-				$('body').append('<a href="' + oktaUrl + '">Log in with Okta</a>');
+				$('body').append('<a href="' + oktaUrl + '">Log in with Generic</a>');
 			}
-			
+
 		});
 
 		function getFragmentVariable(variable) {

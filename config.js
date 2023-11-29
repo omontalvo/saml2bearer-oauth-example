@@ -43,6 +43,7 @@ function loadConfig() {
 		console.log(('[ERROR] Error loading config from ' + configFilePath + '! Server cannot be configured!').red.bold)
 		throw err;
 	}
+	console.log(clientId);
 }
 
 module.exports = loadConfig();
